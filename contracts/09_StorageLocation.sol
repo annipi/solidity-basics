@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0
-pragma solidity ^0.7.4;
+pragma solidity ^0.8.0;
 
 contract StorageLocation {
   // 1. storage Memoria persistente en la cadena de bloques, es llave-valor,
@@ -67,7 +67,7 @@ contract StorageLocation {
   // Lo unico es si alguna vez ven un error de stack exceeded es por que tiene muchas variables
   // dentro de na funcion y ya agotaron este espacio
   function stackVariables() pure external {
-    uint b; // está unicamente disponible para la función b
+//    uint b; // está unicamente disponible para la función b
     //
   }
 
