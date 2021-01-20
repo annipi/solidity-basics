@@ -2,6 +2,7 @@
   "name": "solidity-basics",
   "version": "1.0.0",
   "dependencies": {
-    "@truffle/hdwallet-provider": "^1.2.0"
+    "@truffle/hdwallet-provider": "^1.2.0",
+    "web3": "^1.3.1"
   }
 }
